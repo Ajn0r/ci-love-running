@@ -165,3 +165,18 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+#times {
+    background-image: url(../images/dublin-city.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.meet-up div {
+    display: inline-block;
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
