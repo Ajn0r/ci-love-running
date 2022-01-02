@@ -218,7 +218,7 @@ footer {
     width: 100%;
 }
 
-/* Responsive design */
+/* Responsive design for tablet size of 1200px and down */
  @media screen and (max-width: 1200px){
      #club-ethos {
         width: 65%;
@@ -248,13 +248,15 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
-        
      }
 
      hr {
          display: none;
      }
 }
+
+/* Responsive for mobile screen sizes 950px and down */
+
 @media screen and (max-width: 950px){
     #menu {
         clear: left;
@@ -284,7 +286,16 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+    #photos {
+        column-count: 3;
+    }
+
 }
-@media screen and (max-width: ) {
-    
+
+/* For small screens */
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
